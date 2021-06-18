@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-commerce",
-  "version": "1.0.1",
+  "name": "nonasties-commerce",
+  "version": "1.0.2",
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",

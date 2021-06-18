@@ -1,26 +1,26 @@
 {
   "title": "No Nasties | Powered by Next.js Commerce",
   "titleTemplate": "%s - No Nasties",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "description": "No Nasties - https://nonasties.nl",
   "openGraph": {
     "title": "No Nasties | Powered by Next.js Commerce",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "description": "No Nasties - https://nonasties.nl",
     "type": "website",
-    "locale": "en_IE",
-    "url": "https://nextjs.org/commerce",
-    "site_name": "Next.js Commerce",
+    "locale": "nl",
+    "url": "https://nonasties.nl",
+    "site_name": "No Nasties",
     "images": [
       {
         "url": "/card.png",
         "width": 800,
         "height": 600,
-        "alt": "Next.js Commerce"
+        "alt": "No Nasties"
       }
     ]
   },
   "twitter": {
-    "handle": "@nextjs",
-    "site": "@nextjs",
+    "handle": "@nonastiesshop",
+    "site": "@nonastiesshop",
     "cardType": "summary_large_image"
   }
 }
