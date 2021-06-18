@@ -14,6 +14,13 @@ interface LOCALE_DATA {
 }
 
 const LOCALES_MAP: Record<string, LOCALE_DATA> = {
+  nl: {
+    name: 'Nederlands',
+    img: {
+      filename: 'flag-es-co.svg',
+      alt: 'Nederlandse vlag',
+    },
+  },
   es: {
     name: 'Español',
     img: {
@@ -35,7 +42,7 @@ const I18nWidget: FC = () => {
   const {
     locale,
     locales,
-    defaultLocale = 'en-US',
+    defaultLocale = 'nl',
     asPath: currentPath,
   } = useRouter()
 
