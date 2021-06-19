@@ -18,7 +18,7 @@ interface ProductViewProps {
 const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
   const { price } = usePrice({
     amount: product.price.value,
-    baseAmount: product.price.retailPrice,
+    baseAmount: (product.price.retailPrice * 1,21),
     currencyCode: product.price.currencyCode!,
   })
 

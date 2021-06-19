@@ -46,7 +46,7 @@ export const productInfoFragment = /* GraphQL */ `
       entityId
     }
     description
-    prices {
+    prices (includeTax:true) {
       ...productPrices
     }
     images {

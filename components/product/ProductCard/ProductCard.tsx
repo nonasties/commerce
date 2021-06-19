@@ -31,6 +31,8 @@ const ProductCard: FC<Props> = ({
     currencyCode: product.price.currencyCode!,
   })
 
+  
+
   const rootClassName = cn(
     s.root,
     { [s.slim]: variant === 'slim', [s.simple]: variant === 'simple' },
